@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Assistant:wght@200..800&family=Bree+Serif&family=EB+Garamond:ital@0;1&family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&family=Slabo+27px&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#main{
+  height: 100vh;
+  width:100vw;
+  background-color: black;
+  color:white;
+}
+.heading{
+  text-align: center;
+  padding:5px;
+} */

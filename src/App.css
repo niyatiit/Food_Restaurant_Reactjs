@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Assistant:wght@200..800&family=Bree+Serif&family=EB+Garamond:ital@0;1&family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sedan:ital@0;1&family=Slabo+27px&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  padding: 5px;
+}
+
+.heading h1 {
+  padding: 10px;
+}
+
+.input_type {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_type input {
+  padding: 5px;
+  font-size: 20px;
+  width: 35vw;
+  border-radius: 5px;
+}
+
+.image_part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  margin: 20px;
+  background-color: rgb(247, 246, 248);
+  height: 40%;
+  width: 30%;
+  color: black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: height 0.7s ease;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.img:hover .overlay {
+  height: 100%;
+}
+
+.img h2 {
+  padding: 5px;
+  text-align: center;
+}
+
+.img p {
+  padding: 15px;
+  text-align: initial;
+}
+
+.img h3 {
+  text-align: center;
+  color: gray;
+  padding: 15px;
+  font-style: italic;
+}
+
+
+@media only screen and (max-width:700px){
+    #main{
+        background-color: rgb(38, 37, 37);
+    }
+    .input_type input{
+        width:60vw;
+    }
+    .img{
+        width:60%;
+        height:50%;
+    }
+}
